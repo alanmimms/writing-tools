@@ -1,4 +1,4 @@
-SOURCE = sample-markdown
+SOURCE = sample
 
 TARGETS = \
 	$(SOURCE).html \
