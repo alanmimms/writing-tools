@@ -1,7 +1,7 @@
 # My Writing Workflow Tools
 
-This set of tools is what I use to translate my writing --- in the
-extended Pandoc Markdown format --- into the various forms needed for
+This set of tools is what I use to translate my writing - in the
+extended Pandoc Markdown format - into the various forms needed for
 sharing, publication, printing, etc. I built this Dockerfile and
 reproducible set of tools so that I would never again have to do the
 finicky work to configure a new Linux box to be able to build my
