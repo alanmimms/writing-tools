@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">4</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">629bfdf2-4a88-46b1-a1fa-e8be9e7e71b2</dc:identifier>
+        <dc:title>My Spiffy Title</dc:title>
+        <dc:creator opf:file-as="Author Author" opf:role="aut">Author Author</dc:creator>
+        <dc:date>2019-04-16T00:00:00+00:00</dc:date>
+        <dc:language>en-US</dc:language>
+    </metadata>
+    <guide>
+        <reference href="sample-markdown-cover.png" title="Cover" type="cover"/>
+    </guide>
+</package>
