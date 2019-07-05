@@ -13,7 +13,10 @@ ODT_TEMPLATE = custom-reference.odt
 
 PANDOC_MARKDOWN_EXTENSIONS = --from markdown+smart+fenced_divs+smart+escaped_line_breaks+blank_before_header+header_attributes+blank_before_blockquote+line_blocks+fancy_lists+task_lists+yaml_metadata_block+strikeout+superscript+subscript+inline_code_attributes+bracketed_spans
 
-all:	$(TARGETS_TO_BUILD)
+all:
+	docker run -it --rm --volume $(PWD):/data writing-tools make docker-all
+
+docker-all:	$(TARGETS_TO_BUILD)
 
 clean:
 	rm -f $(TARGETS) *~ .*~
