@@ -13,6 +13,12 @@ to build a consistent set of tools. Occasionally I may upgrade to
 newer versions of these, but only when I feel it's needed. I won't
 _have_ to do so based on which Linux I happen to be running.
 
+To build this Docker container do:
+```
+docker build -t writing-tools .
+```
+
+
 References:
 
 * [Calibre](https://github.com/kovidgoyal/calibre)
