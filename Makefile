@@ -7,4 +7,4 @@ all:
 	    --build-arg "UNAME="$(UNAME) \
 	    --build-arg "UID="$(UID) \
 	    --build-arg "GID="$(GID) \
-	    -t writing-tools:latest .
+	    -t alanm0/writing-tools:latest .
