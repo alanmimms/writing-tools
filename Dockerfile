@@ -28,5 +28,5 @@ RUN \
 COPY .fonts /home/$UNAME/.fonts
 
 USER $UNAME
-ENV PATH /opt/calibre:$PATH
+ENV PATH=/opt/calibre:$PATH
 WORKDIR /data
